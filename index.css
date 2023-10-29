@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    text-align: center;
+    
+    
+}
+@font-face{
+  font-family: "CursedTimerULiL";
+  src: url("/CursedTimerULiL.ttf")
+   
+}
+.Container{
+    display:flex;
+    padding: 20px;
+     background: #1B244A;
+}
+
+.HomeSec{
+    margin: 0 auto;
+    
+}
+.GuestSec{
+    margin: 0 auto;
+}
+.HomeScore,.GuestScore{
+    font-family: 'CursedTimerULiL';
+    color: red;
+    background-color: black;
+    padding: 20px 20px;
+    font-size: 40px;
+}
+.HomeBtn, .GuestBtn{
+    font-family: 'CursedTimerULiL';
+    border: 2px solid azure;
+    padding: 10px;
+    border-radius:4px;
+    margin-left:5px;
+    background-color: #1B244A;
+    color: azure;
+    
+    
+}
+.HomeTxt{
+    color:azure;
+}
+.GuestTxt{
+    color:azure;
+}
